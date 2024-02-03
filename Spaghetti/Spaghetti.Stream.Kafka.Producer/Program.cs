@@ -36,10 +36,6 @@ for (int i = 0; i < 5; i++)
         };
 
         var kafkaMessage = new Message<Null, DocumentIndexDto> { Value = documentIndex };
-
-
-        // push this to kafka
-
         var result = await producer.ProduceAsync("discord_message", kafkaMessage);
         Console.Write(result);
 
