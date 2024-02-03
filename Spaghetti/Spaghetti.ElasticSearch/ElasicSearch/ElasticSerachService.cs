@@ -23,7 +23,6 @@ namespace Spaghetti.ElasticSearch.ElasicSearch
 
             //var resDocs = await client.IndexManyAsync<IEnumerable<object>>()
 
-            var a = 1;
         }
 
         public async void InsertManyIndex(DocumentsIndexDto instance)
@@ -36,7 +35,6 @@ namespace Spaghetti.ElasticSearch.ElasicSearch
 
             var resDocs = await client.IndexManyAsync<Message>(instance.documents, instance.index);
 
-            var a = 1;
         }
 
         public async Task<object> ESSearch(string keyword)
