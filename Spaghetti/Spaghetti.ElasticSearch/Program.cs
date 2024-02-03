@@ -1,4 +1,5 @@
 using Spaghetti.Core.DataTransferObject;
+using Spaghetti.Domain.DataTransferObject;
 using Spaghetti.ElasticSearch.ElasicSearch;
 
 var builder = WebApplication.CreateBuilder(args);

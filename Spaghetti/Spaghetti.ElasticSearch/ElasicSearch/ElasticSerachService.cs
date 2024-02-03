@@ -1,8 +1,9 @@
 ﻿using Elastic.Clients.Elasticsearch;
 using Elastic.Transport;
-using Elasticsearch.Net;
-using Spaghetti.Core;
 using Spaghetti.Core.DataTransferObject;
+using Spaghetti.Domain;
+using Spaghetti.Domain.DataTransferObject;
+using Spaghetti.Domain.Entity;
 using Spaghetti.ElasticSearch.Abstractions;
 
 namespace Spaghetti.ElasticSearch.ElasicSearch

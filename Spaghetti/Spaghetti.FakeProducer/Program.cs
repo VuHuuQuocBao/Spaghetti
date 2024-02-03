@@ -1,16 +1,7 @@
-﻿
-
-
-
-
-
-
-
-using Spaghetti.Core;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Spaghetti.Core.DataTransferObject;
+using Spaghetti.Domain.Entity;
 using System.Text;
-using System;
 
 HttpClient client = new HttpClient();
 

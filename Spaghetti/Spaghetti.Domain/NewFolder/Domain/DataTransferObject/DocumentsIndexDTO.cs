@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spaghetti.Domain.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Spaghetti.Core.DataTransferObject
 {
-    public class DocumentIndexDto
+    public class DocumentsIndexDto
     {
         public string index {  get; set; }
-        public object document {  get; set; }
+        public List<Message> documents {  get; set; }
     }
 }
