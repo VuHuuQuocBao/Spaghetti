@@ -1,4 +1,4 @@
-﻿namespace Spaghetti.Core
+﻿namespace Spaghetti.Domain.Entity
 {
     public class Message
     {

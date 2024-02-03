@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spaghetti.Core.DataTransferObject
+namespace Spaghetti.Domain.DataTransferObject
 {
-    public class DocumentsIndexDto
+    public class DocumentIndexDto
     {
         public string index {  get; set; }
-        public List<Message> documents {  get; set; }
+        public object document {  get; set; }
     }
 }
