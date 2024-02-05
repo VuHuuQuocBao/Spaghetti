@@ -5,4 +5,4 @@
 
 - Kafka, redis, and ES are running as a single cluster with just 1 node, have to deploy cluster with multiple nodes and simulate the parallel processing in the future
 - May need to add MongoDB as persistent layer. Deploy as multiple nodes cluster and need to verify bucket hashing mechanism of MongoDB
-
+- support for media file, search metadata of media file and host to S3
