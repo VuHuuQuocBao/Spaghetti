@@ -9,4 +9,6 @@
 
 
 - Current:
-  -
+    - wrap fetch, push and delete keys in redis in a transaction
+    - deploy multi nodes redis cluster and distribute write using hashSlot
+    - multi process redis 
