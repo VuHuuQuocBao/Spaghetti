@@ -15,4 +15,4 @@
 
 
 - Struggle:
-    - Don't understand why trying to connecting to the cluster using StackExchange by specifying all nodes in the cluster, try to set or get a key, it's like we have to connect to that specific node that holds the key to perform the opeartion, or else will encounter a timeout. Really don't know how to overcome this issue ?
+    - Don't understand why trying to connect to the cluster using StackExchange by specifying all nodes in the cluster, try to set or get a key, it's like we have to connect to that specific node that holds the key to perform the opeartion, or else will encounter a timeout. Really don't know how to overcome this issue ?
